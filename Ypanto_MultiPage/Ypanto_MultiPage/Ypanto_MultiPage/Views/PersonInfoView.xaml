@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:Ypanto_MultiPage.ViewModels"
+             x:Class="Ypanto_MultiPage.Views.PersonInfoView">
+    <ContentPage.BindingContext>
+        <local:PersonInfoViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <Grid Padding="10,20,10,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="45"/>
+                <RowDefinition Height="45"/>
+                <RowDefinition Height="45"/>
+                <RowDefinition Height="45"/>
+                <RowDefinition Height="45"/>
+                <RowDefinition Height="45"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Label Text="First Name"
+                Grid.Row="0"
+                Grid.Column="0"
+                HorizontalOptions="End" 
+                VerticalTextAlignment="Center"
+                FontSize="16"
+                Padding="0,0,10,0"/>
+
+            <Frame BorderColor="Black" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="3" Padding="0">
+                <Entry Placeholder="Enter firstname"
+                       TextColor="Black" 
+                       Text="{Binding Firstname}"
+                       FontSize="16"/>
+            </Frame>
+
+            <Label Text="Middle Name"
+                Grid.Row="1"
+                Grid.Column="0"
+                HorizontalOptions="End" 
+                VerticalTextAlignment="Center"
+                FontSize="16"
+                Padding="0,0,10,0"/>
+
+            <Frame BorderColor="Black" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3" Padding="0">
+                <Entry Placeholder="Enter middle name"
+                       TextColor="Black"  
+                       Text="{Binding Middlename}"
+                       FontSize="16"/>
+            </Frame>
+            
+            <Label Text="Last Name"
+                Grid.Row="2"
+                Grid.Column="0"
+                HorizontalOptions="End" 
+                VerticalTextAlignment="Center"
+                FontSize="16"
+                Padding="0,0,10,0"/>
+
+            <Frame BorderColor="Black" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="3" Padding="0">
+                <Entry Placeholder="Enter last name"
+                       TextColor="Black"  
+                       Text="{Binding Lastname}"
+                       FontSize="16"/>
+            </Frame>
+            
+            <Label Text="Birthday"
+                Grid.Row="3"
+                Grid.Column="0"
+                HorizontalOptions="End" 
+                VerticalTextAlignment="Center"
+                FontSize="16"
+                Padding="0,0,10,0"/>
+
+            <Frame BorderColor="Black" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="3" Padding="0">
+                <Entry Placeholder="e.g. July 29, 1999"
+                       TextColor="Black"  
+                       Text="{Binding Birthday}"
+                       FontSize="16"/>
+            </Frame>
+
+            <Label Text="Gender"
+                Grid.Row="4"
+                Grid.Column="0"
+                HorizontalOptions="End" 
+                VerticalTextAlignment="Center"
+                FontSize="16"
+                Padding="0,0,10,0"/>
+
+            <Frame BorderColor="Black" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="3" Padding="0">
+                <Entry Placeholder="Male or Female"
+                       TextColor="Black"  
+                       Text="{Binding Gender}"
+                       FontSize="16"/>
+            </Frame>
+
+            <Button Text="Next" Grid.Row="5" Grid.Column=" 1" Grid.ColumnSpan="2" Command="{Binding ToEdBg}"/>
+        </Grid>
+        
+        
+    </ContentPage.Content>
+</ContentPage>

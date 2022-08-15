@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ypanto_Mazelike.MainPage">
+    <Grid RowSpacing="0"
+                  ColumnSpacing="0">
+            <BoxView Color="Red"
+                     Grid.ColumnSpan="4"/>
+            <BoxView Color="Green"
+                     Grid.Row="1"
+                     Grid.RowSpan="2"/>
+            <BoxView Color="HotPink"
+                     Grid.Row="1"
+                     Grid.Column="1"
+                     Grid.ColumnSpan="2"/>
+            <BoxView Color="Orange"
+                     Grid.Row="2"
+                     Grid.Column="1"/>
+            <BoxView Color="LightPink"
+                     Grid.Column="2"
+                     Grid.Row="2"/>
+            <BoxView Color="Blue"
+                     Grid.Row="1"
+                     Grid.Column="3"
+                     Grid.ColumnSpan="1"
+                     Grid.RowSpan="3"/>
+            <BoxView Color="Yellow"
+                     Grid.Row="3"
+                     Grid.ColumnSpan="3"/>
+        </Grid>
+</ContentPage>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JeepCodes.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="DarkGreen" Padding="24" CornerRadius="0">
+            <Label Text="Jeepney Codes" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Grid Padding="5,0" RowSpacing="1" ColumnSpacing="1" BackgroundColor="white">
+
+
+            <Label x:Name="resultText" FontSize="20" FontAttributes="Bold" BackgroundColor="white" 
+              TextColor="black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
+              Grid.Row="1"   Grid.ColumnSpan="3"  LineBreakMode="WordWrap"></Label>
+
+            <Entry x:Name="searchText" Placeholder="EnterJeepCode" FontSize="30" FontAttributes="Bold" BackgroundColor="white" 
+              TextColor="black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
+              Grid.Row="3"   Grid.ColumnSpan="3"></Entry>
+
+            <Button Text="Search" Grid.Row="4" Grid.ColumnSpan="3" Clicked="OnSearch"></Button>
+        </Grid>
+    </StackLayout>
+
+</ContentPage>

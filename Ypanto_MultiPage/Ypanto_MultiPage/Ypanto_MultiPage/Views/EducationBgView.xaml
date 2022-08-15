@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Ypanto_MultiPage.ViewModels"
+             x:Class="Ypanto_MultiPage.Views.EducationBgView">
+    <ContentPage.BindingContext>
+        <local:EducationBgViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <Grid Padding="10,20,10,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="45"/>
+                <RowDefinition Height="45"/>
+                <RowDefinition Height="45"/>
+                <RowDefinition Height="45"/>
+                <RowDefinition Height="45"/>
+                <RowDefinition Height="45"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Label Text="Elementary"
+                Grid.Row="0"
+                Grid.Column="0"
+                HorizontalOptions="End" 
+                VerticalTextAlignment="Center"
+                FontSize="16"
+                Padding="0,0,10,0"/>
+
+            <Frame BorderColor="Black" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="3" Padding="0">
+                <Entry Placeholder="Enter Elementary School"
+                       TextColor="Black"   
+                       Text="{Binding Elementary}"
+                       FontSize="16"/>
+            </Frame>
+
+            <Label Text="Year"
+                Grid.Row="1"
+                Grid.Column="0"
+                HorizontalOptions="End" 
+                VerticalTextAlignment="Center"
+                FontSize="16"
+                Padding="0,0,10,0"/>
+
+            <Frame BorderColor="Black" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3" Padding="0">
+                <Entry Placeholder="Enter Year Graduated"
+                       TextColor="Black"   
+                       Text="{Binding ElemYear}"
+                       FontSize="16"/>
+            </Frame>
+
+            <Label Text="Highschool"
+                Grid.Row="2"
+                Grid.Column="0"
+                HorizontalOptions="End" 
+                VerticalTextAlignment="Center"
+                FontSize="16"
+                Padding="0,0,10,0"/>
+
+            <Frame BorderColor="Black" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="3" Padding="0">
+                <Entry Placeholder="Enter High School"
+                       TextColor="Black"   
+                       Text="{Binding Highschool}"
+                       FontSize="16"/>
+            </Frame>
+
+            <Label Text="Year"
+                Grid.Row="3"
+                Grid.Column="0"
+                HorizontalOptions="End" 
+                VerticalTextAlignment="Center"
+                FontSize="16"
+                Padding="0,0,10,0"/>
+
+            <Frame BorderColor="Black" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="3" Padding="0">
+                <Entry Placeholder="Enter Year Graduated"
+                       TextColor="Black"   
+                       Text="{Binding HighYear}"
+                       FontSize="16"/>
+            </Frame>
+
+            <Label Text="College"
+                Grid.Row="4"
+                Grid.Column="0"
+                HorizontalOptions="End" 
+                VerticalTextAlignment="Center"
+                FontSize="16"
+                Padding="0,0,10,0"/>
+
+            <Frame BorderColor="Black" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="3" Padding="0">
+                <Entry Placeholder="Enter College"
+                       TextColor="Black"   
+                       Text="{Binding College}"
+                       FontSize="16"/>
+            </Frame>
+
+            <Button Text="Back" Grid.Row="5" Grid.Column=" 1" Command="{Binding ExitMe}"/>
+            <Button Text="Next" Grid.Row="5" Grid.Column=" 2" Command="{Binding ToSkills}" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

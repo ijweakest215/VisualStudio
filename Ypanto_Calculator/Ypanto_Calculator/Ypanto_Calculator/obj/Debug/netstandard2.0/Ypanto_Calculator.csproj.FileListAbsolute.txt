@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\Ypanto_Calculator\Ypanto_Calculator\Ypanto_Calculator\obj\Debug\netstandard2.0\Ypanto_Calculator.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Ypanto_Calculator\Ypanto_Calculator\Ypanto_Calculator\obj\Debug\netstandard2.0\Ypanto_Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\Ypanto_Calculator\Ypanto_Calculator\Ypanto_Calculator\bin\Debug\netstandard2.0\Ypanto_Calculator.deps.json
+C:\Users\User\source\repos\Ypanto_Calculator\Ypanto_Calculator\Ypanto_Calculator\bin\Debug\netstandard2.0\Ypanto_Calculator.dll
+C:\Users\User\source\repos\Ypanto_Calculator\Ypanto_Calculator\Ypanto_Calculator\bin\Debug\netstandard2.0\ref\Ypanto_Calculator.dll
+C:\Users\User\source\repos\Ypanto_Calculator\Ypanto_Calculator\Ypanto_Calculator\bin\Debug\netstandard2.0\Ypanto_Calculator.pdb
+C:\Users\User\source\repos\Ypanto_Calculator\Ypanto_Calculator\Ypanto_Calculator\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\User\source\repos\Ypanto_Calculator\Ypanto_Calculator\Ypanto_Calculator\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\User\source\repos\Ypanto_Calculator\Ypanto_Calculator\Ypanto_Calculator\obj\Debug\netstandard2.0\Ypanto_Calculator.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Ypanto_Calculator\Ypanto_Calculator\Ypanto_Calculator\obj\Debug\netstandard2.0\Ypanto_Calculator.AssemblyInfo.cs
+C:\Users\User\source\repos\Ypanto_Calculator\Ypanto_Calculator\Ypanto_Calculator\obj\Debug\netstandard2.0\Ypanto_Calculator.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Ypanto_Calculator\Ypanto_Calculator\Ypanto_Calculator\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\User\source\repos\Ypanto_Calculator\Ypanto_Calculator\Ypanto_Calculator\obj\Debug\netstandard2.0\Ypanto_Calculator.dll
+C:\Users\User\source\repos\Ypanto_Calculator\Ypanto_Calculator\Ypanto_Calculator\obj\Debug\netstandard2.0\ref\Ypanto_Calculator.dll
+C:\Users\User\source\repos\Ypanto_Calculator\Ypanto_Calculator\Ypanto_Calculator\obj\Debug\netstandard2.0\Ypanto_Calculator.pdb

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "zEJ7gXoRElH/DiY81KX31+LugQDh2vknnfemzWd1sW1Fj7LPmpmue/Cga17LUuosW+v4ujjc8tEHCWQrjiC1lQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\source\\repos\\JeepCodes\\JeepCodes\\JeepCodes.iOS\\JeepCodes.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}
